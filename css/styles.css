@@ -143,10 +143,6 @@ h4 {
 	padding-bottom: 40px;
 }
 
-p + p {
-	margin-bottom: 50px;
-}
-
 .col-sm-6 {
 	margin: auto;
 }
@@ -181,7 +177,7 @@ p + p {
 	z-index: 1;
 }
 
-.right {
+.left {
 	z-index: 1;
 }
 
@@ -225,6 +221,7 @@ p + p {
 
 .btn:hover {
 	background-color: #FA4118;
+	color: #fff;
 }
 
 @ media screen and (max-width:880px) {
@@ -233,4 +230,15 @@ p + p {
 	}
 }
 
+.right {
+	text-align: center;
+	color: rgba(255, 255, 255, 0.5);
+}
 
+#name {
+	margin-bottom: 3px;
+}
+
+.contact-decoration {
+	margin-bottom: 30px;
+}
