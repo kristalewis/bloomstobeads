@@ -133,6 +133,10 @@ h4 {
 	display: block;
 }
 
+.menu-area {
+	margin-bottom: 5px;
+}
+
 #product_ul {
 	position: absolute;
 	text-align: left;
@@ -143,8 +147,8 @@ h4 {
 	padding-bottom: 40px;
 }
 
-.col-sm-6 {
-	margin: auto;
+ul li + li a {
+	margin-top: 10px;
 }
 
 #contact-container {
@@ -230,15 +234,27 @@ h4 {
 	}
 }
 
-.right {
+.wrapper {
+	text-align: left;
+	color: rgba(255, 255, 255, 0.4);
+}
+
+footer {
+	width: 100%;
+	padding: 30px 0px;
 	text-align: center;
-	color: rgba(255, 255, 255, 0.5);
 }
 
-#name {
-	margin-bottom: 3px;
+footer p {
+	margin-bottom: 5px;
 }
 
-.contact-decoration {
-	margin-bottom: 30px;
+.footer {
+	margin: 30px auto 20px auto;
 }
+
+.first {
+	margin-right: 35px;
+}
+
+
