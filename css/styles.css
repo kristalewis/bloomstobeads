@@ -1,1 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
 
+body {
+	background-color: #3F3847;
+	color: #E7E5E8;
+}
+
+.menu-area li a {
+	text-decoration: none;
+	color: #E7E5E8;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	display: block;
+	padding: 0 25px;
+	font-size: 14px;
+	line-height: 30px;
+	position: relative;
+	z-index: 1;
+}
+
+.menu-area li {
+	list-style: none;
+	display: inline-block;
+}
+
+.topnav {
+	padding-top: 25px;
+	padding-bottom: 70px;
+}
+
+nav {
+	position: relative;
+	padding: 10px 20px 10px 10px;
+	text-align: right;
+	z-index: 1;
+	background: #333;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 25%;
+	float: left;
+	text-transform: uppercase;
+	color: #E7E5E8;
+	font-size: 25px;
+	text-align: left;
+	padding-left: 2%;
+}
+
+.logo a {
+	text-decoration: none;
+	color: #E7E5E8;
+}
+
+.menu-area li a:hover {
+	background: tomato;
+	color: #fff;
+}
+
+nav:before {
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 100%;
+	border-top: 10px solid #333;
+	border-right: 10px solid #333;
+	border-left: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+}
+
+nav:after {
+	position: absolute;
+	content: '';
+	border-top: 10px solid #333;
+	border-left: 10px solid #333;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	top: 100%;
+	right: 0;
+}
+
+h1 {
+	padding-bottom: 25px;
+}
+
+img {
+	height: 275px;
+	width: 225px;
+	object-fit: cover;
+}
+
+.card {
+	height: 50%;
+	width: 45%;
+	background-color: #333;
+	margin: 0px auto 15px auto;
+}
+
+.container {
+  width: 100%;
+  padding: 2px 16px;
+}
+
+.about {
+	line-height: 30px;
+	padding-bottom: 30px;
+}
+
+.question {
+	padding-bottom: 35px;
+}
+
+h4 {
+	color: #F3B674;
+}
+
+.menu-area li ul li{
+	display: none;
+}
+
+.menu-area li:hover ul li{
+	display: block;
+}
+
+#product_ul {
+	position: absolute;
+	text-align: left;
+	background-color: #333;
+}
+
+.row {
+	padding-bottom: 40px;
+}
+
+.contact-us {
+	width: 300px;
+}
+
+form .input {
+	width: 100%;
+}
+
+p + p {
+	margin-bottom: 50px;
+}
+
+.col-sm-6 {
+	margin: auto;
+}

@@ -5,22 +5,41 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
-
+  <meta charset="utf-8">
   <title>Contact</title>
 </head>
 <body>
-<h1>
-  CONTACT FORM
-</h1>
-<p><a href="index.html">Home</a></p>
-<p><a href="FAQ.html">FAQ's</a></p>
+  <div class="container">
+   <div class="topnav">
+    <nav>
+      <div class="logo"><a href="index.html">Blooms To Beads</a></div>
+      <ul class="menu-area">
+        <li><a href="#">Products</a>
+          <ul id="product_ul">
+            <li><a href="jewlery.html" class="product_a">Jewlery</a></li>
+            <li><a href="non-jewlery.html" class="product_a">Non-Jewlery</a></li>
+            <li><a href="shadowboxes.html" class="product_a">Shadowboxes</a></li>
+          </ul>
+        </li>
+        <li><a href="FAQ.html">FAQ's</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
 
-<div class="container">
-  <form action="mom's email" method="????">
-    <label>Name<input type="text" name="name"></label>
-    <label>Email<input type="text" name="email"></label>
-    <label>Message<input type="textarea" name="message"></label>
-  </form>
-</div>
+    <h1>
+      Let's Connect
+    </h1>
+
+    <div class="contact-us">
+      <form action="contact.php" method="post">
+        <label>Name <input type="text" name="sender" required class="input"></label>
+        <label>Email <input type="text" name="senderEmail" required class="input"></label>
+        <label>Message <input type="textarea" name="message" required class="input"></label>
+      </form>
+      <button>Submit</button>
+    </div>
+  </div>
 </body>
 </html>
