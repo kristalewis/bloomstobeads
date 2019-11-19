@@ -32,14 +32,17 @@
       Let's Connect
     </h1>
 
-    <div class="contact-us">
-      <form action="contact.php" method="post">
-        <label>Name <input type="text" name="sender" required class="input"></label>
-        <label>Email <input type="text" name="senderEmail" required class="input"></label>
-        <label>Message <input type="textarea" name="message" required class="input"></label>
-      </form>
-      <button>Submit</button>
+  <div id="contact-container">
+    <div class="contact-box">
+      <div class="right">
+          <input type="text" required class="field" placeholder="your name">
+          <input type="email" required class="field" placeholder="your email">
+          <input type="text" class="field" placeholder="phone number">
+          <textarea required class="field area" placeholder="message"></textarea>
+          <button class="btn"><b>Send Message</b></button>
+      </div>
     </div>
+  </div>
   </div>
 </body>
 </html>

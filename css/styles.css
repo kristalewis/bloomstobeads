@@ -9,6 +9,8 @@
 body {
 	background-color: #3F3847;
 	color: #E7E5E8;
+	width: 100%;
+	height: 100vh;
 }
 
 .menu-area li a {
@@ -17,10 +19,11 @@ body {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	display: block;
-	padding: 0 25px;
+	padding: 0px 25px 0px 25px;
 	font-size: 14px;
 	line-height: 30px;
 	position: relative;
+	margin-bottom: 0;
 	z-index: 1;
 }
 
@@ -87,6 +90,7 @@ nav:after {
 
 h1 {
 	padding-bottom: 25px;
+	margin-bottom: 30px;
 }
 
 img {
@@ -110,6 +114,7 @@ img {
 .about {
 	line-height: 30px;
 	padding-bottom: 30px;
+	margin-bottom: 15px;
 }
 
 .question {
@@ -138,14 +143,6 @@ h4 {
 	padding-bottom: 40px;
 }
 
-.contact-us {
-	width: 300px;
-}
-
-form .input {
-	width: 100%;
-}
-
 p + p {
 	margin-bottom: 50px;
 }
@@ -153,3 +150,87 @@ p + p {
 .col-sm-6 {
 	margin: auto;
 }
+
+#contact-container {
+	position: relative;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	margin-top: 20px;
+}
+
+#contact-container:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.contact-box{
+	max-width: 450px;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: left;
+	text-align: center;
+	box-shadow: 0px 0px 19px 5px rgba (0, 0, 0, 0.19);
+	z-index: 1;
+}
+
+.right {
+	z-index: 1;
+}
+
+.field {
+	width: 100%;
+	padding: 0.5rem 1rem;
+	outline: none;
+	border: 2px solid rgba (0, 0, 0, 0);
+	background-color: rgba (230, 230, 230, 0.6);
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+	border-radius: 7px;
+	z-index: 1;
+}
+
+.field:hover {
+	background-color: rgba (0, 0, 0, 0.1);
+}
+
+.field:focus {
+	background-color: #fff;
+	border: 2px solid rgba (30, 85, 250, 0.47);
+}
+
+.area {
+	min-height: 150px;
+}
+
+.btn {
+	width: 100%;
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	background-color: tomato;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	transition: 0.3s;
+	color: #fff;
+}
+
+.btn:hover {
+	background-color: #FA4118;
+}
+
+@ media screen and (max-width:880px) {
+	.contact-box {
+		grid-template-columns: 1fr;
+	}
+}
+
+
