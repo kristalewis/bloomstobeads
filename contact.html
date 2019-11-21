@@ -40,7 +40,8 @@
         <div class="left">
           <form method="post" action="https://formspree.io/xdoojred">
             <input type="text" name="name" id="full-name" placeholder="your name" required class="field">
-            <input type="email" required class="field" placeholder="your email" name="email">
+            <input type="email" name="_replyto" placeholder="your email" required class="field"/>
+            <input type="text" required class="field" placeholder="phone number (optional)" name="phone-number">
             <textarea required class="field area" placeholder="message" name="message"></textarea>
             <input type="hidden" name="_subject" value="Blooms To Beads" />
             <input type="hidden" name="_next" value="https://www.bloomstobeads.com/thankyou.html"/>
