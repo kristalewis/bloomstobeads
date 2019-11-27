@@ -466,7 +466,11 @@ label {
 	margin-left: auto;
 }
 
-
+@media screen and (min-width: 500px) and (max-width: 750px) {
+    .trim {
+    	max-height: 250px;
+    }
+}
 
 
 
