@@ -405,6 +405,9 @@ label {
 		text-align: center;
 		width: 100%;
 		display: none;
+		position: absolute;
+   		right:10%;
+
 	}
 	.menu-area li a {
 		display: block;
@@ -452,3 +455,19 @@ label {
     	padding-bottom: 0;
     }
 }
+
+.col-lg-6 {
+	margin-bottom: 2rem;
+	border: solid 1px #9D93A4;
+	border-radius: 35px;
+	padding-top: 2rem;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+
+
+
+
