@@ -260,7 +260,8 @@ ul li + li a {
 }
 
 .area {
-	min-height: 150px;
+	min-height: 200px;
+	box-shadow: inset 1px 1px 1px grey;
 }
 
 .btn {
@@ -406,7 +407,7 @@ label {
 		width: 100%;
 		display: none;
 		position: absolute;
-   		right:10%;
+   		right:0;
 
 	}
 	.menu-area li a {
@@ -420,7 +421,7 @@ label {
 	#toggle:checked + .logo + .menu-area {
 		float: right;
 		display: block;
-		padding: 20px 0px 0px 0px;
+		margin: 68px 0px 0px 0px;
 		width: 129px;
 		background-color: #333;
 	}
