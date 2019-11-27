@@ -27,6 +27,9 @@ body {
     body {
     	font-size: 16px;
     }
+    .footer {
+    	width: 200px;
+    }
 }
 
 .menu-area li a {
@@ -141,6 +144,7 @@ img {
 	margin: 0px auto 15px auto;
 	border-radius: 35px;
 	padding-top: 40px;
+	padding-bottom: 15px;
 }
 
 .tall a img{
@@ -164,6 +168,11 @@ img {
 
 h4 {
 	color: #F3B674;
+}
+
+h3 {
+	color: #F3B674;
+	margin-bottom: 500px;
 }
 
 .menu-area li ul li{
@@ -201,6 +210,7 @@ ul li + li a {
 	height: 100%;
 	z-index: 1;
 	margin-top: 20px;
+	margin-bottom: 90px;
 }
 
 #contact-container:after {
@@ -211,6 +221,7 @@ ul li + li a {
 	width: 100%;
 	height: 100%;
 }
+
 
 .contact-box{
 	max-width: 450px;
@@ -273,9 +284,6 @@ ul li + li a {
 	.contact-box {
 		grid-template-columns: 1fr;
 	}
-	.row {
-		padding-bottom: 0;
-	}
 }
 
 .wrapper {
@@ -297,13 +305,15 @@ footer p {
 }
 
 .footer {
+	top:-5px;
 	right: 0;
 	bottom: 0;
 	left: 0;
-	position: absolute;
-	min-width: 300px;
+	position: relative;
+	width: 350px;
 	text-align: left;
-	margin-left: 43.1%;
+	margin-right:auto;
+	margin-left: 23%;
 }
 
 .first {
@@ -355,7 +365,7 @@ span +span {
 	max-width: 0px;
 }
 
-.naked {
+#naked {
 	border: none;
 }
 
@@ -371,12 +381,6 @@ a img {
 	object-fit: contain;
 }
 
-.index-container {
-  width: 100%;
-  padding: 10px 40px;
-  min-height: 100%;
-  text-align: center;
-}
 
 label {
 	font-size: 26px;
@@ -401,7 +405,6 @@ label {
 		text-align: center;
 		width: 100%;
 		display: none;
-
 	}
 	.menu-area li a {
 		display: block;
@@ -412,10 +415,10 @@ label {
 		z-index: 1;
 	}
 	#toggle:checked + .logo + .menu-area {
+		float: right;
 		display: block;
 		padding: 20px 0px 0px 0px;
 		width: 129px;
-		float: right;
 		background-color: #333;
 	}
 	.menu-area li a {
@@ -430,5 +433,22 @@ label {
 		display: none;
 	}
 
+
 }	
 
+.row-index {
+	text-align: center
+}
+
+
+@media screen and (min-width: 750px) and (max-width: 991px) {
+    .trim {
+    	max-height: 300px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .row {
+    	padding-bottom: 0;
+    }
+}
