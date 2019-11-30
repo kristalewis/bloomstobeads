@@ -484,6 +484,9 @@ label {
    .wrapper {
    	text-align: left;
    }
+   .product p {
+   	padding: 0px 20px;
+   }
  
 }
 
