@@ -432,12 +432,13 @@ label {
 		background: tomato;
 		color: #fff;
 	}
-
+	#productdropdown {
+		display: none;
+	}
  	#product_ul {
 		display: none;
 	}
-
-
+	
 }	
 
 .row-index {
@@ -483,10 +484,38 @@ label {
    .wrapper {
    	text-align: left;
    }
-
+ 
 }
 
-
+@media screen and (max-width: 767px) {
+	  #welcome {
+		display: none;
+	}
+	#indexswitching {
+		display: grid;
+	}
+	.switching:nth-of-type(1){
+		order:2;
+	}
+	.switching:nth-of-type(1){
+		order:2;
+	}
+	.index {
+		display: grid;
+	}
+	.index:nth-of-type(1) {
+		order: 1;
+	}
+	.index:nth-of-type(2) {
+		order: 2;
+	}
+	.index:nth-of-type(3) {
+		order: 4;
+	}
+	.index:nth-of-type(4) {
+		order: 3;
+	}
+}
 
 
 
