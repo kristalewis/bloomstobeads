@@ -27,7 +27,7 @@ body {
     body {
     	font-size: 16px;
     }
-    .footer {
+    .footerclass {
     	width: 200px;
     }
 }
@@ -305,7 +305,7 @@ footer p {
 	margin-bottom: 5px;
 }
 
-.footer {
+.footerclass {
 	top:-5px;
 	right: 0;
 	bottom: 0;
@@ -466,10 +466,21 @@ label {
 	margin-left: auto;
 }
 
-@media screen and (min-width: 500px) and (max-width: 750px) {
+@media screen and (min-width: 360px) and (max-width: 750px) {
     .trim {
     	max-height: 250px;
     }
+    .container {
+    	margin: auto;
+    	width: 360px
+    }
+    .footerclass {
+    	margin-left: 8%;
+    }
+    footer {
+    	width: 80vw;
+    }
+   
 }
 
 
