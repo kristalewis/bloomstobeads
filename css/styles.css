@@ -534,3 +534,16 @@ label {
     	display:none;
     }
 }
+
+@media screen and (max-width: 750px) {
+	 nav {
+	 	position: fixed;
+	 	left: 0;
+	 	right: 0;
+	 	top: 0;
+	 }
+	 .topnav {
+	 	margin-bottom: 30px;
+	 }
+}
+
