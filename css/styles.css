@@ -422,11 +422,11 @@ label {
 		float: right;
 		display: block;
 		margin: 68px 0px 0px 0px;
-		width: 129px;
+		width: 180px;
 		background-color: #333;
 	}
 	.menu-area li a {
-		width: 130px;
+		width: 180px;
 	}
 	.menu-area li a:hover {
 		background: tomato;
@@ -520,5 +520,17 @@ label {
 	}
 }
 
+.index a {
+	text-decoration: none;
+	color: #E7E5E8;
+}
 
+.index a h6 {
+	margin-top: 10px;
+}
 
+@media screen and (min-width: 991px) {
+	.menu-area li .navbar-hidden {
+    	display:none;
+    }
+}
